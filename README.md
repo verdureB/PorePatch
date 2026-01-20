@@ -79,9 +79,9 @@ To evaluate the performance of descriptors in the real-world geometric task (3D 
 If you use the PorePatch dataset or this code in your research, please cite our paper:
 
 ```bibtex
-@article{lin2026porepatch,
+@article{li2025pore,
   title={Pore-scale Image Patch Dataset and A Comparative Evaluation of Pore-scale Facial Features},
-  author={Lin, Hualiang and Li, Dong and Li, JiaYu},
-  journal={Machine Intelligence Research (Submitted)},
-  year={2026}
+  author={Li, Dong and Lin, HuaLiang and Li, JiaYu},
+  journal={arXiv preprint arXiv:2512.00381},
+  year={2025}
 }
