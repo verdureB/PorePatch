@@ -16,16 +16,16 @@ This repository contains the dataset download links and instructions for reprodu
 
 ## 📂 Dataset Download
 
-The PorePatch dataset is organized into specific folders. Please download the corresponding folders based on your task.
+The PorePatch dataset is organized into the following folders. Please download the corresponding directories from the link below.
 
 **🔗 Download Link:** [ **https://pan.baidu.com/s/15oQjBbVS-U-lMYxXhYlHFQ?pwd=me5h** ]
 
 ### File Structure & Descriptions
 
-| Folder Name | Included Files | Target Task |
+| Folder Name | Content Description | Target Task |
 | :--- | :--- | :--- |
-| **`Dataset/`** | `PorePatch_Train.zip` <br> `PorePatch_Verification_Test.zip` | **Training & Patch Verification** |
-| **`3DFaceReconstruction_Test/`** | Raw multi-view images of held-out subjects. | **3D Face Reconstruction** |
+| **`Dataset/`** | Contains the pore-scale facial patch dataset required for training and verification. | **Training & Patch Verification** |
+| **`3DFaceReconstruction_Test/`** | Raw multi-view images of held-out subjects for downstream evaluation. | **3D Face Reconstruction** |
 
 ---
 
@@ -44,10 +44,8 @@ For training descriptors and evaluating patch verification performance (FPR95), 
     cd HyNet
     ```
 2.  **Prepare Data:**
-    *   Access the **`Dataset`** folder on the network disk.
-    *   Download and unzip **`PorePatch_Train.zip`** for training.
-    *   Download and unzip **`PorePatch_Verification_Test.zip`** for evaluation.
-    *   Place them in the data directory expected by HyNet code.
+    *   Download the contents of the **`Dataset`** folder from the link provided above. This folder contains all necessary pore-scale image patches for both training and verification tasks.
+    *   Place the data in the directory expected by the HyNet code.
 3.  **Modify Model:**
     *   Replace the model definition in `model.py` (or equivalent) with the descriptor architecture you wish to test (e.g., your own model, or the AFSRNet/SDGMNet mentioned in our paper).
 4.  **Run:**
@@ -65,7 +63,7 @@ To evaluate the performance of descriptors in the real-world geometric task (3D 
     git clone https://github.com/ahojnnes/local-feature-evaluation.git
     ```
 2.  **Prepare Data:**
-    *   Download the contents of the **`3DFaceReconstruction_Test`** folder.
+    *   Download the **`3DFaceReconstruction_Test`** folder.
     *   Replace the default ETH benchmark datasets with our provided **Reconstruction Test Set**.
 3.  **Run Pipeline:**
     *   Extract features using your trained descriptor model.
