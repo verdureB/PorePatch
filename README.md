@@ -24,7 +24,7 @@ The PorePatch dataset is organized into specific folders. Please download the co
 
 | Folder Name | Included Files | Target Task |
 | :--- | :--- | :--- |
-| **`Dataset/`** | `Patch dataset for training and testing` | **Training & Patch Verification** |
+| **`Dataset/`** | `PorePatch_Train.zip` <br> `PorePatch_Verification_Test.zip` | **Training & Patch Verification** |
 | **`3DFaceReconstruction_Test/`** | Raw multi-view images of held-out subjects. | **3D Face Reconstruction** |
 
 ---
