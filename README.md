@@ -18,7 +18,7 @@ This repository contains the dataset download links and instructions for reprodu
 
 The PorePatch dataset is organized into three parts. Please download the specific files required for your task.
 
-**🔗 Download Link:** [ **COMING SOON** ]
+**🔗 Download Link:** [ **https://pan.baidu.com/s/15oQjBbVS-U-lMYxXhYlHFQ?pwd=me5h** ]
 
 ### File Descriptions
 
